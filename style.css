@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f7;
+}
+
+.fb-section {
+    display: flex;
+    width: 75%;
+    
+}
+
+
+.fb-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 55%;
+    margin-right: 55px;
+    margin-top: 40px;
+}
+
+
+
+.facebook-text svg {
+   width: 310px;
+    /* background-color: blueviolet; */
+
+
+}
+
+.facebook-subtext{
+    font-size: 1.8rem;
+    margin-left: 29px;
+}
+
+.fb-section .login-form{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.fb-section .login-form form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -3px -3px 33px 1px rgba(0,0,0,0.1);
+
+}
+
+.email-pass, .password, .login-btn {
+    /* width: 360px; */
+    width: 95%;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #3e404633;
+    font-size: 17px;
+    padding: 0 10px;
+
+}
+
+input:focus {
+    border: 1px solid #0866ff;
+    outline: 0;
+    box-shadow: 0px 1px 2px 0px rgba(10,10,10,0.1);
+}
+
+
+.login-btn {
+    background-color:#0866ff ;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 360px;
+
+}
+
+.forgot-pass {
+    color: #0866ff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.rule {
+    width: 100%;
+    border: 1px solid #edeff1;
+    margin-bottom: 25px;
+}
+
+.new-acct-btn {
+    height: 50px;
+    width: 50%;
+    font-size: 16px;
+    background-color: #42B72A;
+    /* padding: 0 16px; */
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.under-text {
+    text-align: center;
+    font-size: 14px;
+    color: #1c1e21dc;
+    margin-top: 30px;
+}
+
+.under-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.under-text a:hover{
+    text-decoration: underline;
+}
